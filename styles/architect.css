@@ -16,7 +16,9 @@
     border: 0;
     margin-bottom: 35px;
 }
-
+body{
+    margin: 0;
+}
 /* header styles */
 header{
     background: rgba(255, 144, 14, 0.10);
