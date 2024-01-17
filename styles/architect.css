@@ -227,6 +227,21 @@ main{
 .sponsor-img-container img{
     width: 165px;
 }
+footer{
+    position: relative;
+    left: 150px;
+    width: 80%;
+    height: 80px;
+    font-size: 20px;
+    color: var(--Dark-02, #424242);
+    background: #FFF4E7;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
 /* responsive media queries */
 /* moblie or smaller devices */
 @media screen and (max-width: 576px) {
@@ -245,6 +260,7 @@ main{
         width: 100%;
         margin-top: 0px;
         padding-left: 0px;
+        margin-bottom: 20px;
     }
     .banner-content{
         width: 100%;
@@ -253,10 +269,11 @@ main{
         grid-template-columns: repeat(1, 1fr);
     }
     .ten-years-badge{
-        width: 300px;
-        padding: 0px;
+        width: 290px;
+        padding: 20px;
         position: static;
         bottom: 100px;
+
     }
 
     .teams-content,
@@ -268,11 +285,15 @@ main{
     .facts-card-container,
     .sponsor-img-container
     {
-        gap: 20px;
+        gap: 30px;
     }
     main{
         max-width: 1440px;
         margin: 70px 50px;
+    }
+    footer{
+        left: auto;
+        width: 100%;
     }
 }
 
